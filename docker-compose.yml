@@ -7,6 +7,6 @@ services:
     volumes:
       - ./data:/var/lib/postgres
     environment:
-      - POSTGRES_DB=base
+      - POSTGRES_DB=dockerd_postgresql_1
       - POSTGRES_USER=adm
       - POSTGRES_PASSWORD=9mRE
